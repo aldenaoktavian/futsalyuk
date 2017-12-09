@@ -57,49 +57,6 @@
             z-index: 99999;
         }
       }
-	  /* CSS YSP */
-	  .background-white-psy{
-			background-color : #cdf2f2;
-	  }
-		
-	  .background-blue{
-			background-color : #24c8c8;
-	  }
-	  
-	  .shapeborder{
-			background-color:#96e3e3;
-			border-top-left-radius: 72px;
-			border-bottom-left-radius: 72px;
-		}
-
-		.shapeborder2{
-			background-color:#61d6d8;
-			border-top-left-radius: 20px;
-			border-bottom-left-radius: 20px;
-		}
-		
-		.icon-list{
-			list-style : none;
-			padding : 10px 0px 10px 13px;
-		}
-
-		.icon-list>li{
-			display : inline-block;
-		}
-
-		.icon-list>li img{
-			width : 128px;
-		}
-		
-		.nav>li>a:hover, .nav>li>a:focus{
-			color:#092927 !important;
-			background-color:#01bab8 !important
-		}
-		
-	  .text-edit{border-radius: 15px !important;}
-	  .button-send{width: 100px;border-radius: 15px !important;}
-	  
-	  /* END OF CSS YSP */
     </style>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmp5jSQ-LYSC07qKVF_2Cj2yVzfaoZukQ&v=3.exp&signed_in=true&libraries=places"></script>
@@ -304,7 +261,7 @@
       </div>
     </div>
 
-    <!--div class="wrapper-feature py3">
+    <div class="wrapper-feature py3">
       <div class="container">
         
         <div class="clearfix center">
@@ -339,53 +296,9 @@
         </div>
 
       </div>
-    </div-->
-  <section class="container-fluid background-blue">
-	<div class="row">
-	 <div class="container">
-	   <div class="col-md-9" style="padding-right: 0px;">
-			
-			<div class="col-md-12" style="padding-right: 0px;">
-			 <h3>Fitur user</h3>
-				<div class="shapeborder">
-					<ul class="icon-list text-center">
-						<li><img src="<?php echo base_url() ?>assets/img/mainpage/icon1.png" class="img-responsive center-block"></li>
-						<li><img src="<?php echo base_url() ?>assets/img/mainpage/icon2.png" class="img-responsive center-block"></li>
-						<li><img src="<?php echo base_url() ?>assets/img/mainpage/icon3.png" class="img-responsive center-block"></li>
-						<li><img src="<?php echo base_url() ?>assets/img/mainpage/icon4.png" class="img-responsive center-block"></li>
-						<li><img src="<?php echo base_url() ?>assets/img/mainpage/icon5.png" class="img-responsive center-block"></li>
-						<li><img src="<?php echo base_url() ?>assets/img/mainpage/icon6.png" class="img-responsive center-block"></li>
-					</ul>
-				</div>
-			</div>
-			
-			<div class="col-md-12" style="padding-right: 0px;">
-			 <h3>Fitur mitra</h3>
-			 <div class="shapeborder2">
-					<ul class="icon-list">
-						<li><img src="<?php echo base_url() ?>assets/img/mainpage/icon7.png" class="img-responsive center-block"></li>
-						<li><img src="<?php echo base_url() ?>assets/img/mainpage/icon8.png" class="img-responsive center-block"></li>
-						<li><img src="<?php echo base_url() ?>assets/img/mainpage/icon9.png" class="img-responsive center-block"></li>
-						<li><img src="<?php echo base_url() ?>assets/img/mainpage/icon10.png" class="img-responsive center-block"></li>
-					</ul>
-				</div>
-			</div>
-			
-			<div class="col-md-12">
-			 <h3>Booking lapangan</h3>
-			 <h4>Cari Lapangan Dengan Satu Jari</h4>
-			 <p>Futsalyuk.com memberikan kemudahan menghemat waktu, tenaga dan alasan untuk tidak bermain futsal Hanya diujung jari kamu dapat pesan lapangan terbaikmu</p>
-			</div>
-	    </div>
-		<div class="col-md-3" style="padding-left: 0px;">
-			<img src="<?php echo base_url() ?>assets/img/mainpage/cp.png" class="img-responsive size">
-		</div>
-	 </div>
-	</div>
-  </section>
-  
+    </div>
 
-    <!--div class="wrapper-email py3">
+    <div class="wrapper-email py3">
       <div class="container px2 py3">
         <div class="md-col-8 lg-col-8 sm-col-12 mx-auto center">
           <h2 class="mt0 mb0">Masukan Email Anda agar Tetap Terhubung Dengan Kami di Futsaklyuk.com dan Mendapatkan Info Lebih Lanjut</h2>
@@ -393,7 +306,7 @@
             <div class="col lg-col-9 md-col-9 sm-col-12 mt3 px2">
               <div class="hero-image-keyword form-group mb0">
                   <input type="text" class="form-control" type="email" id="email" placeholder="masukan email anda">
-              </div>
+              </div><!-- /.form-group -->
             </div>
             <div class="col lg-col-3 md-col-3 sm-col-12 mt3 px2">
               <button onclick="do_register()" class="form-control btn-email">Send</button>
@@ -401,28 +314,7 @@
           </div>
         </div>
       </div>
-    </div-->
-	<section class="container-fluid background-white-psy">
-	<div class="row">
-		 <div class="container">
-			<div class="col-md-3"></div>
-			<div class="col-md-6 text-center">
-				<h5>Masukan Email Anda agar Tetap Terhubung Dengan Kami di Futsalyuk.com dan Mendapatkan info Lebih lanjut</h5>
-				<form class="form-group">
-					<div class="col-md-9">
-						<input type="email" class="form-control text-edit" placeholder="Masukan email anda"/>
-					</div>
-					<div class="col-md-3">
-						<input type="button" class="btn btn-default button-send" value="Send"/>
-					</div>
-					<div class="clear" style="height:45px"></div>
-				</form>
-				
-			</div>
-			<div class="col-md-3"></div>
-		 </div>
-	</div>
-  </section>
+    </div>
 
     <div class="wrapper-seo py3" style="background-image: url('<?php echo base_url() ?>assets/img/halaman_utama/bg-seo.png');">
       <div class="container px3 py3">

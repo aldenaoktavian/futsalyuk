@@ -22,4 +22,10 @@ class C_halaman_utama extends CI_Controller {
 	{
 		$this->load->view('new-page/halaman_utama_new');
 	}
+	
+	public function login_comm()
+	{
+		
+		$this->load->view('new-page/halaman_login_comm');//die('asdasd');
+	}
 }
