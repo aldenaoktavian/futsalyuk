@@ -119,7 +119,7 @@
 				</div>
 				
 			</div>
-			<div class="col md-col-6 sm-col-12 px2">
+			<div class="col-md-6">
 			  <div class="timeline-profile u-shadow py2 px2">
 				<div class="u-shadow">
 				  <div class="col-12 card px2 py2">
@@ -193,7 +193,7 @@
 				</div>
 			  </div>
 			</div>
-			<div class="col-md-3 u-shadow" style="background-color:#f2f2f2">
+			<div class="col-md-3" style="background-color:#f2f2f2">
 				<h4 style="color:#1ebab8">NEWS</h4>
 				<div class="col-md-12 news-img">
 					<img src="<?php echo base_url(); ?>assets/img/socialpage/gale-5.jpg" class="img-responsive">
@@ -213,7 +213,6 @@
 				</div>
 				<div class="clear" style="height:100px"></div>
 			</div>
-			<div class="clear" style="height:800px"></div>
 		</div>
 	</div>
   </section>
