@@ -34,4 +34,10 @@ class C_halaman_utama extends CI_Controller {
 		
 		$this->load->view('new-page/halaman_sosial');//die('asdasd');
 	}
+
+	public function sosial_team()
+	{
+		
+		$this->load->view('new-page/halaman_sosial_team');//die('asdasd');
+	}
 }
